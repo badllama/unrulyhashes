@@ -7,7 +7,7 @@ import time
 # Function to make an API call to VirustTotal.  Takes a hash as a parameter.
 def virustotalcall(hash):
 	url = 'https://www.virustotal.com/vtapi/v2/file/report'
-	key = '<INSERT YOUR VIRUSTTOTAL API KEY HERE>'
+	key = 'INSERT YOUR VIRUSTTOTAL API KEY HERE'
 	parameters = {'resource': hash, 'apikey': key}
 
 	# Requests package is required for this to work.
